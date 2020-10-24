@@ -17,7 +17,7 @@
         <item name="chipBackgroundColor">@color/colorPrimaryDark</item>
         <item name="iconTint">@android:color/white</item>
         <item name="color">@android:color/white</item>
-        <item name="chipStartPadding">8dp</item>
+        <item name="chipStartPadding">7dp</item>
         <item name="elevation">8dp</item>
     </style>
 
@@ -47,6 +47,21 @@
 
     <style name="Button.Outlined.White" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="backgroundTint">@android:color/white</item>
+    </style>
+
+    <style name="GrayText_for_Images">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/grey_400</item>
+    </style>
+
+    <style name="Invoice_style">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/grey_400</item>
+    </style>
+
+    <style name = "Text_Input_Layout_Style" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+
     </style>
 
 </resources>
